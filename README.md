@@ -18,11 +18,11 @@ Please check Output images for more clarity.
 A big thanks to Krish Naik and his youtube videos.
 Dataset: Kaggle
 
-[alt_text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flask-api.png)
+![alt text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flask-api.png)
 
-[alt_text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/postman.png)
+![alt text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/postman.png)
 
-[alt_text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flasgger1.png)
+![alt text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flasgger1.png)
 
-[alt_text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flasgger2.png)
+![alt text](https://github.com/shivekchhabra/Flask-API/blob/master/Outputs/flasgger2.png)
 
