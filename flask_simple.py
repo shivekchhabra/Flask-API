@@ -27,6 +27,7 @@ def predict_note_authentication():
 
 @app.route('/predict_file', methods=['POST'])
 def predict_file():
+    # Use postman for this. Go in Body and add a file.
     df = pd.read_csv(request.files.get('file'))
     pred = model.predict(df)
     return 'The predicted values are {}'.format(list(pred))
