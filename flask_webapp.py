@@ -53,7 +53,6 @@ def predict_note_authentication():
     entropy = request.args.get('entropy')
     prediction = model.predict([[variance, skewness, curtosis, entropy]])
 
-    # It will render results on:  http://127.0.0.1:5000/predict?variance=2&skewness=3&curtosis=2&entropy=1
     return 'The predicted value is {}'.format(prediction)
 
 
