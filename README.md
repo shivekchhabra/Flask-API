@@ -12,6 +12,8 @@ or you may simply try running flask_simple.py / flask_webapp.py with the existin
 
 PS- I am pushing in model and test files so you can see the results easily.
 
+Please check Output images for more clarity.
+
 ## References:
 A big thanks to Krish Naik and his youtube videos.
 Dataset: Kaggle
