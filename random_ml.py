@@ -1,4 +1,4 @@
-from ricebowl import preprocessing
+from ricebowl.processing import data_preproc
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
@@ -26,7 +26,7 @@ def pickle_model(model, path_and_filename):
 
 
 if __name__ == '__main__':
-    df = preprocessing.read_csv('banknote.csv')
+    df = data_preproc.read_csv('banknote.csv')
     label = df['class']
     data = df.drop(columns='class')
     model = simple_modeling(data, label)
