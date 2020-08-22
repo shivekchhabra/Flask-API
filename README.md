@@ -14,6 +14,18 @@ PS- I am pushing in model and test files so you can see the results easily.
 
 Please check Output images for more clarity.
 
+## Docker
+You may use the dockerfile.
+Simply build a docker image using:
+	docker build -t <name of img> .
+
+After that, run the image:
+	docker run -p 8000:8000 <name of img>
+
+Finally check your results on:
+	http://0.0.0.0:8000/apidocs
+
+
 ## References:
 A big thanks to Krish Naik and his youtube videos.
 Dataset: Kaggle
